@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cece39b2-4973-4459-9f08-6c944ef142ac" name="Default Changelist" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/main/java/routes/RouteConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
@@ -15,6 +16,12 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/routes/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/routes/Api.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/routes/Api.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/routes/Api.class" afterDir="false" />
 >>>>>>> 751fdbcfe095ed27c092021aa4af605c93d8a9fa
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/modules/example/ExampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/example/ExampleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/routes/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/routes/Api.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modules/example/ExampleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/routes/Api.class" beforeDir="false" />
+>>>>>>> 2a56e912fee5ee71441306eb979266bd68f05e39
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,6 +33,9 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/righthere$Main.ic" NAME="Main Coverage Results" MODIFIED="1534196587498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-999187593">
@@ -81,12 +91,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="205" />
+          <entry key="java" value="226" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="205" />
+          <entry key="JAVA" value="226" />
         </counts>
       </usages-collector>
     </session>
@@ -190,8 +200,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/routes/Api.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="306">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#118#119#0" expanded="true" />
@@ -204,12 +214,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/modules/example/ExampleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="41" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -227,8 +235,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="170">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -494,10 +502,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534196715132" />
 =======
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534196410848" />
 >>>>>>> 751fdbcfe095ed27c092021aa4af605c93d8a9fa
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534196687943" />
+>>>>>>> 2a56e912fee5ee71441306eb979266bd68f05e39
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -564,17 +576,25 @@
       <workItem from="1534188592749" duration="6843000" />
 =======
       <workItem from="1534188592749" duration="5418000" />
+<<<<<<< HEAD
       <workItem from="1534195929425" duration="481000" />
 >>>>>>> 751fdbcfe095ed27c092021aa4af605c93d8a9fa
+=======
+      <workItem from="1534195929425" duration="720000" />
+>>>>>>> 2a56e912fee5ee71441306eb979266bd68f05e39
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="7108000" />
 =======
     <option name="totallyTimeSpent" value="6164000" />
 >>>>>>> 751fdbcfe095ed27c092021aa4af605c93d8a9fa
+=======
+    <option name="totallyTimeSpent" value="6403000" />
+>>>>>>> 2a56e912fee5ee71441306eb979266bd68f05e39
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -585,6 +605,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.50323623" side_tool="true" weight="0.18017058" />
       <window_info id="Image Layers" order="4" />
+<<<<<<< HEAD
 <<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49676377" weight="0.18017058" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
@@ -597,14 +618,21 @@
       <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.7238806" visible="true" weight="0.329718" />
 =======
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18176973" />
+=======
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18176973" />
+>>>>>>> 2a56e912fee5ee71441306eb979266bd68f05e39
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.27558637" side_tool="true" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="5" sideWeight="0.72441363" visible="true" weight="0.329718" />
 >>>>>>> 751fdbcfe095ed27c092021aa4af605c93d8a9fa
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.72441363" visible="true" weight="0.329718" />
+>>>>>>> 2a56e912fee5ee71441306eb979266bd68f05e39
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
@@ -646,27 +674,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/routes/Web.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/modules/example/ExampleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="41" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/routes/Web.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="119">
           <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
@@ -674,11 +701,16 @@
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
 >>>>>>> 751fdbcfe095ed27c092021aa4af605c93d8a9fa
+=======
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+>>>>>>> 2a56e912fee5ee71441306eb979266bd68f05e39
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/routes/Api.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="102">
           <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
@@ -687,6 +719,10 @@
 =======
         <state relative-caret-position="425">
           <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+=======
+        <state relative-caret-position="306">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+>>>>>>> 2a56e912fee5ee71441306eb979266bd68f05e39
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#118#119#0" expanded="true" />

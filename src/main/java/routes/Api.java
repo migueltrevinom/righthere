@@ -17,7 +17,7 @@ public class Api {
     private void init() {
 
         path("/api", () -> {
-            path("example", () -> {
+            path("/example", () -> {
                 get("/hello", (req, res) -> ExampleController.renderHelloWorld(req, res));
                 //insert as group
             });
