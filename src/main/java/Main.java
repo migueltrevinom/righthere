@@ -1,11 +1,11 @@
+import routes.Api;
 
 public class Main {
 
 
     public static void main(String[] args) {
 
-        ApiRoutes api = new ApiRoutes();
+        Api ApiRoutes = new Api();
 
-        api.init();
     }
 }

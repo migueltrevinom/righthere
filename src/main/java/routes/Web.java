@@ -1,4 +1,4 @@
 package routes;
 
-public class api {
+public class Web {
 }
