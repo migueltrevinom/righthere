@@ -1,6 +1,11 @@
 package routes;
 
+import modules.example.ExampleController;
+
 import static spark.Spark.get;
+import static spark.Spark.path;
+
+
 
 public class Api {
 
@@ -11,7 +16,12 @@ public class Api {
 
     private void init() {
 
-        get("/hello", (req, res) -> "Hello World");
+        path("/api", () -> {
+            path("example", () -> {
+                get("/hello", (req, res) -> ExampleController.renderHelloWorld(req, res));
+                //insert as group
+            });
+        });
 
     }
 
