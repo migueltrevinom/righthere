@@ -15,6 +15,7 @@ import { addUser } from '../redux/actions/app.action';
 import { bindActionCreators } from 'redux';
 
 import MenuAppBar from './layout/menu-bar';
+import ClassRoomCard from './classrooms/classroom-card';
 
 const styles = (theme: Theme) =>
   createStyles({
@@ -50,6 +51,9 @@ class Index extends React.Component<WithStyles<typeof styles>, State> {
     return (
       <div>
         <MenuAppBar />
+
+        <ClassRoomCard />
+
         <Dialog open={this.state.open} onClose={this.handleClose}>
           <DialogTitle>Super Secret Password</DialogTitle>
           <DialogContent>
