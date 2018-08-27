@@ -5,17 +5,29 @@
   "main": "src/index.tsx",
   "dependencies": {
     "@material-ui/core": "latest",
-    "@types/react": "*",
-    "@types/react-dom": "*",
+    "@types/react": "^16.4.12",
+    "@types/react-dom": "^16.0.7",
+    "@types/react-redux": "^6.0.6",
+    "@types/react-router": "^4.0.30",
+    "@types/react-router-redux": "^5.0.15",
     "prop-types": "^15.6.2",
     "react": "latest",
     "react-dom": "latest",
-    "react-scripts-ts": "latest"
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts-ts": "latest",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-thunk": "^2.3.0",
+    "webpack": "^3.11.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.6"
   },
   "devDependencies": {
     "@types/jest": "*",
-    "@types/node": "*",
-    "typescript": "latest"
+    "@types/node": "^10.9.2",
+    "typescript": "^3.0.1"
   },
   "scripts": {
     "start": "react-scripts-ts start",

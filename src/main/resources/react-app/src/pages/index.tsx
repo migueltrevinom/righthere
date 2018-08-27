@@ -10,6 +10,9 @@ import { Theme } from '@material-ui/core/styles/createMuiTheme';
 import createStyles from '@material-ui/core/styles/createStyles';
 import withStyles, { WithStyles } from '@material-ui/core/styles/withStyles';
 import withRoot from '../withRoot';
+import { connect } from 'react-redux';
+import { addUser } from '../redux/actions/app.action';
+import { bindActionCreators } from 'redux';
 
 import MenuAppBar from './layout/menu-bar';
 
@@ -37,6 +40,7 @@ class Index extends React.Component<WithStyles<typeof styles>, State> {
   };
 
   handleClick = () => {
+    addUser(1);
     this.setState({
       open: true,
     });
@@ -71,4 +75,13 @@ class Index extends React.Component<WithStyles<typeof styles>, State> {
   }
 }
 
-export default withRoot(withStyles(styles)(Index));
+export default connect(
+    (state: any) => {
+        return {
+            ...state.home
+        };
+    },
+    (dispatch) => {
+        return bindActionCreators({ addUser }, dispatch);
+    }
+)(withRoot(withStyles(styles)(Index)));
