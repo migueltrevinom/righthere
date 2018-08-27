@@ -5,10 +5,11 @@ import { routerReducer, routerMiddleware } from 'react-router-redux';
 import thunk from 'redux-thunk';
 import createHistory from 'history/createBrowserHistory';
 import * as ReactDOM from 'react-dom';
-import Index from './pages/index';
+// import Index from './pages/index';
 import { Provider } from 'react-redux';
 
 import rootReducer from './redux/reducers';
+import ReactRouter from './Router';
 
 const history = createHistory();
 const middleware = routerMiddleware(history);
@@ -30,4 +31,4 @@ const renderer = (Component: any) =>
         document.getElementById('root')
     );
 
-renderer(Index);
+renderer(ReactRouter);
