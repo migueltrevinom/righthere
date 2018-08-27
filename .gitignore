@@ -2,3 +2,4 @@
 .idea
 .idea/workspace.xml
 /.idea/
+/src/resources/react-app/node_modules
