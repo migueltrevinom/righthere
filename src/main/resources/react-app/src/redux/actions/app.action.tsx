@@ -9,3 +9,12 @@ export function addUser (num: any) {
         }
     };
 }
+
+export function getClassRooms () {
+    return {
+        type: 'GET_CLASS_ROOMS',
+        payload: {
+            USER_NUM: [1, 2, 3, 4, 5]
+        }
+    };
+ }

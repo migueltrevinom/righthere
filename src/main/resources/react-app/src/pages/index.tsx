@@ -1,11 +1,11 @@
 import * as React from 'react';
-import Button from '@material-ui/core/Button';
-import Dialog from '@material-ui/core/Dialog';
-import DialogActions from '@material-ui/core/DialogActions';
-import DialogContent from '@material-ui/core/DialogContent';
-import DialogContentText from '@material-ui/core/DialogContentText';
-import DialogTitle from '@material-ui/core/DialogTitle';
-import Typography from '@material-ui/core/Typography';
+// import Button from '@material-ui/core/Button';
+// import Dialog from '@material-ui/core/Dialog';
+// import DialogActions from '@material-ui/core/DialogActions';
+// import DialogContent from '@material-ui/core/DialogContent';
+// import DialogContentText from '@material-ui/core/DialogContentText';
+// import DialogTitle from '@material-ui/core/DialogTitle';
+// import Typography from '@material-ui/core/Typography';
 import { Theme } from '@material-ui/core/styles/createMuiTheme';
 import createStyles from '@material-ui/core/styles/createStyles';
 import withStyles, { WithStyles } from '@material-ui/core/styles/withStyles';
@@ -15,7 +15,7 @@ import { addUser } from '../redux/actions/app.action';
 import { bindActionCreators } from 'redux';
 
 import MenuAppBar from './layout/menu-bar';
-import ClassRoomCard from './classrooms/classroom-card';
+import ClassRoomContainer from './classrooms/clasrooms-container';
 
 const styles = (theme: Theme) =>
   createStyles({
@@ -52,9 +52,9 @@ class Index extends React.Component<WithStyles<typeof styles>, State> {
       <div>
         <MenuAppBar />
 
-        <ClassRoomCard />
+        <ClassRoomContainer />
 
-        <Dialog open={this.state.open} onClose={this.handleClose}>
+        {/* <Dialog open={this.state.open} onClose={this.handleClose}>
           <DialogTitle>Super Secret Password</DialogTitle>
           <DialogContent>
             <DialogContentText>1-2-3-4-5</DialogContentText>
@@ -73,7 +73,7 @@ class Index extends React.Component<WithStyles<typeof styles>, State> {
         </Typography>
         <Button variant="raised" color="secondary" onClick={this.handleClick}>
           Dialog
-        </Button>
+        </Button> */}
       </div>
     );
   }
